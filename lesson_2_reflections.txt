@@ -1,0 +1,5 @@
+When you initialize a repository, all of the metadata files necessary for tracking your commits get created.  They are not yet populated but their existence activates the possibility of inputting further git commands that allow for the creation of the log.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is different in that it allows you fine control over what you put into your git repository from your existing files.  Each logical chunk can be a part of its own commit.
