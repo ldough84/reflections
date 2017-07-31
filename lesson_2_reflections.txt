@@ -3,3 +3,11 @@ When you initialize a repository, all of the metadata files necessary for tracki
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It is different in that it allows you fine control over what you put into your git repository from your existing files.  Each logical chunk can be a part of its own commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using the staging area allows you to verify that you're making the changes you think you're making right before you commit your changes.  You can compare what you've changed between the current working directory and the staging area using 'git diff' to make sure you haven't added any unwanted changes, and compare the staging area to the last commit using 'git diff --staged' to see what exactly is going to be changed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help in trying out new features, changing presentations, or switching languages.
