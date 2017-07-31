@@ -1,0 +1,23 @@
+Viewing a diff between the two files highlighted the areas in which there were 
+changes between new and old.  This allowed me to skip all the content that 
+remained the same and focus on areas that were possible culprits in the 
+undesirable behavior we were looking for.
+
+Manual commits allow the user to control what size logical chunks they need to
+commit in order to keep the git log history clean and organized, and the
+comments useful for understanding the purpose of the commit.  The danger you run
+however, is that you may forget to commit for too long and lose work due to some
+unforseen interruption.
+
+It is more difficult to track changes across multiple files and not necessary i
+most cases.  Google Docs has no need to implement this for the vast majority of
+cases, but it is a crucial aspect of working on software projects.
+
+Git log allow you a global view of all changes, git diff allows you to zoom in
+on a specific set of changes.
+
+Using version control allows you to easily revert changes, so if your software
+fails critical tests, you can always revert to the last working copy.
+
+Now that I am more familiar with Git, I'd like to use it to make my software 
+projects simpler to manage, and stop worrying about making changes to them.
