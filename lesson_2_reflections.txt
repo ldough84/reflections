@@ -11,3 +11,11 @@ Using the staging area allows you to verify that you're making the changes you t
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches would help in trying out new features, changing presentations, or switching languages.
+
+How do the diagrams help you visualize the branch structure?
+
+Visually.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It adds the changes made to both branches together, removing the deletions, and adding the supplementary lines; it can determine what things were not there previously by comparing to the original file.
