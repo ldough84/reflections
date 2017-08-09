@@ -1,1 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+For working on a joint project with someone else.  Even if you're right next to one another, it's more convenient to keep track of the code by contributing to the same repository rather than emailing the files back and forth or some other solution.
